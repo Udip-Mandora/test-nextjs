@@ -32,7 +32,7 @@ export default function home() {
                 {skills && skills.map((skill) => (
                     <li key={skill.id}>
                         <h2>{skill.Name}</h2>
-                        <img src={skill.Image} alt={skill.Name}></img>
+                        <img id="skill-image" src={skill.Image} alt={skill.Name}></img>
                     </li>
                 ))}
             </ul>

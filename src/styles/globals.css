@@ -1,16 +1,25 @@
 .education-detail {
   text-decoration: none;
   list-style: none;
-  text-align: center;
+  /* text-align: center; */
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
   font-size: larger;
   color: royalblue;
+  font-weight: 900;
 }
 
 .experience-detail {
   list-style: none;
   color: brown;
   margin: 10px;
+
+}
+
+.experience-detail li {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 2em;
+  padding: 3em;
+  border-radius: 10px
 }
 
 .skills-detail {
@@ -77,6 +86,53 @@ main p {
 
 #desk {
   width: 1500px;
-  height: 600px;
+  height: auto;
   margin: auto;
+}
+
+.skills-detail li {
+  display: inline-block;
+  margin: 1em;
+}
+
+#skill-image {
+  height: auto;
+  width: 170px;
+  margin: 2em;
+
+}
+
+.info {
+  /* border: 1px solid; */
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: lavenderblush;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.education-detail {
+  text-align: center;
+  display: block;
+}
+
+.education-detail li {
+  border: 1px solid black;
+  margin: 2em;
+  width: 300px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.projects-detail li {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 4em;
+  padding: 2em;
+  color: crimson;
+}
+
+.skills-detail {
+  text-align: center;
+  display: block;
 }

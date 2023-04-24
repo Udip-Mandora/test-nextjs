@@ -30,19 +30,20 @@ export default function home() {
                 </div>
             </header>
 
-
-            <ul className="education-detail">
-                {education && education.map((edu) => (
-                    <li key={edu.id}>
-                        <h2>{edu.Degree}</h2>
-                        <p>{edu.Discipline}</p>
-                        <p>{edu.Institute}</p>
-                        <p>{edu.Location}</p>
-                        <p>{edu.Started_at}</p>
-                        <p>{edu.Ended_at}</p>
-                    </li>
-                ))}
-            </ul>
+            <div class="edu">
+                <ul class="education-detail">
+                    {education && education.map((edu) => (
+                        <li key={edu.id}>
+                            <h2>{edu.Degree}</h2>
+                            <p>{edu.Discipline}</p>
+                            <p>{edu.Institute}</p>
+                            <p>{edu.Location}</p>
+                            <p>{edu.Started_at}</p>
+                            <p>{edu.Ended_at}</p>
+                        </li>
+                    ))}
+                </ul>
+            </div>
         </>
     );
 }

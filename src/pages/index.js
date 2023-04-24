@@ -24,16 +24,18 @@ export default function Home() {
       </header>
 
       <main>
-        <h3>Welcome to My Portfolio</h3>
-        <p>Here, we will see the work I have done over the time.</p>
-        <p>Each link will take you on a tour to the designated page and show you the exact work which has been done by me.</p>
+        <div className='info'>
+          <h3>Welcome to My Portfolio</h3>
+          <p>Here, we will see the work I have done over the time.</p>
+          <p>Each link will take you on a tour to the designated page and show you the exact work which has been done by me.</p>
 
-        <p>I have done my post graduation in Web Development from Humber College. I have been an enthusiast whenever it came to technology
-          and building websites. My goal always has been to work and develop websites and products which can change people's lives with
-          that.
-        </p>
+          <p>I have done my post graduation in Web Development from Humber College. I have been an enthusiast whenever it came to technology
+            and building websites. My goal always has been to work and develop websites and products which can change people's lives with
+            that.
+          </p>
+        </div>
 
-        <img id="desk" src="./image/desk.jpg"></img>
+        <img id="desk" src="./image/image3.jpg"></img>
       </main>
 
       <footer class="footer">
