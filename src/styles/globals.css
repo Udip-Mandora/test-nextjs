@@ -71,6 +71,12 @@ main p {
 }
 
 .footer {
-  margin-top: 26em;
+  margin-top: 3em;
   text-align: center;
+}
+
+#desk {
+  width: 1500px;
+  height: 600px;
+  margin: auto;
 }
