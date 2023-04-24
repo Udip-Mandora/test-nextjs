@@ -8,6 +8,10 @@
   font-weight: 900;
 }
 
+.header {
+  font-weight: bolder;
+}
+
 .experience-detail {
   list-style: none;
   color: brown;
@@ -85,9 +89,10 @@ main p {
 }
 
 #desk {
-  width: 1500px;
+  width: 1000px;
   height: auto;
-  margin: auto;
+  margin: 0 auto;
+  display: block;
 }
 
 .skills-detail li {
@@ -135,4 +140,39 @@ main p {
 .skills-detail {
   text-align: center;
   display: block;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 4em;
+  text-align: center;
+  display: block;
+  background-color: black;
+  color: antiquewhite;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.myForm {
+  margin-top: 3px;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.myForm input {
+  margin: 1em;
+  width: 200px;
+}
+
+#mybtn {
+  width: 100px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 5px;
+}
+
+#mybtn:hover {
+  background-color: cornsilk;
+  color: black;
 }

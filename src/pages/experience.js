@@ -42,6 +42,16 @@ export default function home() {
                     </li>
                 ))}
             </ul>
+            <footer class="footer">
+                <h3>©️ Udip Mandora, 2023</h3>
+                <div class="myForm">
+                    <form>
+                        <label>Email:</label>
+                        <input type="email" placeholder='Please Enter Your Email Here'></input>
+                        <input id="mybtn" type="submit" value="Contact Me"></input>
+                    </form>
+                </div>
+            </footer>
         </>
     );
 }
