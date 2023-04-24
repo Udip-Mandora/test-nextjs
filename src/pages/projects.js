@@ -28,14 +28,16 @@ export default function home() {
                 </div>
             </header>
 
-            <ul className="projects-detail">
-                {projects && projects.map((project) => (
-                    <li key={project.id}>
-                        <h2>{project.Name}</h2>
-                        <p>{project.Content}</p>
-                    </li>
-                ))}
-            </ul>
+            <main>
+                <ul className="projects-detail">
+                    {projects && projects.map((project) => (
+                        <li key={project.id}>
+                            <h2>{project.Name}</h2>
+                            <p>{project.Content}</p>
+                        </li>
+                    ))}
+                </ul>
+            </main>
 
             <footer class="footer">
                 <h3>©️ Udip Mandora, 2023</h3>

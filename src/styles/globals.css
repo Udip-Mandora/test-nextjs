@@ -118,7 +118,9 @@ main p {
 
 .education-detail {
   text-align: center;
-  display: block;
+  display: flex;
+  flex-flow: row;
+  margin-left: 18em;
 }
 
 .education-detail li {
@@ -175,4 +177,8 @@ main p {
 #mybtn:hover {
   background-color: cornsilk;
   color: black;
+}
+
+#email {
+  padding: 20px;
 }

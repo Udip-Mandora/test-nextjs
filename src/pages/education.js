@@ -30,27 +30,29 @@ export default function home() {
                 </div>
             </header>
 
-            <div class="edu">
-                <ul class="education-detail">
-                    {education && education.map((edu) => (
-                        <li key={edu.id}>
-                            <h2>{edu.Degree}</h2>
-                            <p>{edu.Discipline}</p>
-                            <p>{edu.Institute}</p>
-                            <p>{edu.Location}</p>
-                            <p>{edu.Started_at}</p>
-                            <p>{edu.Ended_at}</p>
-                        </li>
-                    ))}
-                </ul>
-            </div>
+            <main>
+                <div class="edu">
+                    <ul class="education-detail">
+                        {education && education.map((edu) => (
+                            <li key={edu.id}>
+                                <h2>{edu.Degree}</h2>
+                                <p>{edu.Discipline}</p>
+                                <p>{edu.Institute}</p>
+                                <p>{edu.Location}</p>
+                                <p>{edu.Started_at}</p>
+                                <p>{edu.Ended_at}</p>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            </main>
 
             <footer class="footer">
                 <h3>©️ Udip Mandora, 2023</h3>
                 <div class="myForm">
                     <form>
                         <label>Email:</label>
-                        <input type="email" placeholder='Please Enter Your Email Here'></input>
+                        <input id="email" type="email" placeholder='Please Enter Your Email Here'></input>
                         <input id="mybtn" type="submit" value="Contact Me"></input>
                     </form>
                 </div>

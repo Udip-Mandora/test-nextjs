@@ -28,14 +28,16 @@ export default function home() {
                 </div>
             </header>
 
-            <ul className="skills-detail">
-                {skills && skills.map((skill) => (
-                    <li key={skill.id}>
-                        <h2>{skill.Name}</h2>
-                        <img id="skill-image" src={skill.Image} alt={skill.Name}></img>
-                    </li>
-                ))}
-            </ul>
+            <main>
+                <ul className="skills-detail">
+                    {skills && skills.map((skill) => (
+                        <li key={skill.id}>
+                            <h2>{skill.Name}</h2>
+                            <img id="skill-image" src={skill.Image} alt={skill.Name}></img>
+                        </li>
+                    ))}
+                </ul>
+            </main>
 
             <footer class="footer">
                 <h3>©️ Udip Mandora, 2023</h3>

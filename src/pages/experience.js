@@ -30,18 +30,21 @@ export default function home() {
                 </div>
             </header>
 
-            <ul className="experience-detail">
-                {experience && experience.map((exp) => (
-                    <li key={exp.id}>
-                        <h2>{exp.Company}</h2>
-                        <p>{exp.Title}</p>
-                        <p>{exp.Started}</p>
-                        <p>{exp.End}</p>
-                        <p>{exp.Location}</p>
-                        <p>{exp.Description}</p>
-                    </li>
-                ))}
-            </ul>
+            <main>
+                <ul className="experience-detail">
+                    {experience && experience.map((exp) => (
+                        <li key={exp.id}>
+                            <h2>{exp.Company}</h2>
+                            <p>{exp.Title}</p>
+                            <p>{exp.Started}</p>
+                            <p>{exp.End}</p>
+                            <p>{exp.Location}</p>
+                            <p>{exp.Description}</p>
+                        </li>
+                    ))}
+                </ul>
+            </main>
+
             <footer class="footer">
                 <h3>©️ Udip Mandora, 2023</h3>
                 <div class="myForm">
