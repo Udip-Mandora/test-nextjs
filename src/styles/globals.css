@@ -1,10 +1,16 @@
 .education-detail {
   text-decoration: none;
   list-style: none;
+  text-align: center;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+  font-size: larger;
+  color: royalblue;
 }
 
 .experience-detail {
   list-style: none;
+  color: brown;
+  margin: 10px;
 }
 
 .skills-detail {
@@ -14,4 +20,57 @@
 img {
   width: 100px;
   height: 50px;
+}
+
+.projects-detail {
+  list-style: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: royalblue;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+}
+
+.navigation a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 40em;
+  padding: 1em;
+  font-size: larger;
+}
+
+.header a {
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+
+main h3 {
+  text-align: center;
+  font-size: 40px;
+  color: darksalmon;
+}
+
+main p {
+  font-size: 20px;
+  text-align: center;
+  color: navy;
+}
+
+.header a:hover {
+  background-color: dimgrey;
+  color: white;
+}
+
+.footer {
+  margin-top: 26em;
+  text-align: center;
 }

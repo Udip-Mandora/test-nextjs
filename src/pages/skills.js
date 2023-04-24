@@ -18,6 +18,16 @@ export default function home() {
                 <title>My Skills</title>
             </Head>
 
+            <header class="header">
+                <a href="/">Udip's Portfolio</a>
+                <div class="navigation">
+                    <a href="/education">Education</a>
+                    <a href="/projects">Projects</a>
+                    <a href="/skills">Skills</a>
+                    <a href="/experience">Experience</a>
+                </div>
+            </header>
+
             <ul className="skills-detail">
                 {skills && skills.map((skill) => (
                     <li key={skill.id}>
